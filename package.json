@@ -1,0 +1,35 @@
+{
+  "name": "download-vine",
+  "version": "1.0.0",
+  "description": "A tool to download files, including vines",
+  "main": "download.js",
+  "scripts": {
+    "test": "node_modules/istanbul/lib/cli.js cover node_modules/mocha/bin/_mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/joeyism/node-download-vine.git"
+  },
+  "keywords": [
+    "download",
+    "vine",
+    "twitter",
+    "mp4",
+    "picture",
+    "multiple",
+    "multi",
+    "files",
+    "file"
+  ],
+  "author": "Joey Sham <sham.joey@gmail.com> (http://www.joeyism.com)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/joeyism/node-download-vine/issues"
+  },
+  "homepage": "https://github.com/joeyism/node-download-vine#readme",
+  "dependencies": {
+    "async": "^1.4.0",
+    "promise": "^7.0.4",
+    "request": "^2.60.0"
+  }
+}
